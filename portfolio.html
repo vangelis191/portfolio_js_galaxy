@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-d3t03wZ4Q04Pab/4Wg2h9yym5p8h4ftO+KaSdo1CCtk+Kyb8Y3CGcvuSRYEnWA3J3lSZcsEou8FcwFZlEuJuXw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="style.css"> <!-- Add your CSS styles -->
+  <title>Vangelis Chasiotis Portfolio</title>
+</head>
+<body>
+ 
+  <div class="wrapper page-container" style="background-color:rgb(190, 185, 185)">
+    <span class="mobile-hide" id="mobileHide">
+      <a style="color:white; font-weight:bold" href="/">Home</a>
+    </span>
+    
+    <div class="portfolio" >
+      <header>
+        <nav>
+          <ul>
+            <li><a href="#about" onclick="scrollToSection('about')">About</a></li>
+            <li><a href="#skills" onclick="scrollToSection('skills')">Skills</a></li>
+            <li><a href="#portfolio" onclick="scrollToSection('portfolio')">Portfolio</a></li>
+            <li><a href="#experience" onclick="scrollToSection('experience')">Experience</a></li>
+            <li><a href="#contact" onclick="scrollToSection('contact')">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+    
+      <section id="hero">
+        <h1>Vangelis Chasiotis</h1>
+        <p>Full Stack Developer</p>
+        <a href="#contact" class="cta-button">Contact Me</a>
+      </section>
+    
+      <section id="about">
+        <h2>About Me</h2>
+        <p>
+          Hello, I'm Vangelis, a dedicated Full Stack Developer with a passion for leveraging technology...
+        </p>
+      </section>
+    
+      <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-list">
+          <div class="professional-skills">
+            <h3>Professional</h3>
+            <ul>
+              <li>.Net</li>
+              <li>PostgreSQL/MySQL</li>
+              <li>Angular</li>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>HTML/SCSS</li>
+            </ul>
+          </div>
+          <div class="hobby-skills">
+            <h3>Hobby</h3>
+            <ul>
+              <li>Java</li>
+              <li>Python</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    
+      <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="portfolio-items">
+          <!-- Project 1 -->
+          <div class="project">
+            <h3>Version Derma Cyprus</h3>
+            <p>
+              For this project, I took on the role of structuring the entire site's CSS...
+            </p>
+            <a href="https://versiondermacyprus.com" target="_blank" rel="noopener noreferrer" class="text-hover">
+              <span class="highlight">View on Website</span>
+            </a>
+            <div class="stackblitz-embed">
+              <iframe src="https://versiondermacyprus.com/" title="Version Cyprus" width="100%" height="400px"></iframe>
+            </div>
+          </div>
+    
+          <!-- Project 2 -->
+          <div class="project">
+            <h3>Ginger3dstudio</h3>
+            <p class="project-description">
+              For this project is a responsive website I built from the ground up using React...
+            </p>
+            <a href="https://ginger3dstudio.com/" target="_blank" rel="noopener noreferrer" class="text-hover">
+              <span class="highlight">View on Website</span>
+            </a>
+            <div class="stackblitz-embed">
+              <iframe src="https://ginger3dstudio.com/" title="Version Cyprus" width="100%" height="400px"></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+      <section id="experience">
+        <h2>WORK EXPERIENCE</h2>
+
+        <div class="job">
+          <h3>Full Stack Developer</h3>
+          <p>Company: Ehealth, University of Cyprus</p>
+          <p>Date: 1/09/2022 - Present</p>
+          <p>
+            Remote work. Responsible for the frontend (view) and backend of an
+            application in .NET and React. The eHealth4U project is focused on
+            designing and developing a prototype of the national integrated EHR
+            system in Cyprus.
+          </p>
+          <p>
+            Technologies: .Net, PostgreSQL, Angular, Angular Material, RXJS,
+            React, Typescript, JSON, HTML, SCSS, React-Bootstrap, Redux, C#
+          </p>
+        </div>
+
+        <div class="job">
+          <h3>Full Stack Developer</h3>
+          <p>Company: 4W4U (Cyprus)</p>
+          <p>Date: 01/06/2021 – 1/09/2022</p>
+          <p>
+            Remote work. Responsible for the backend and frontend of an
+            Android/IOS application written in IONIC (Angular).
+          </p>
+          <p>
+            Technologies: IONIC 3, IONIC 4, HTML, CSS, Bootstrap, Typescript,
+            Angular, JSON, Python, AWS
+          </p>
+        </div>
+
+        <div class="job">
+          <h3>Full Stack Developer</h3>
+          <p>Company: 4W4U (Cyprus), University of Cyprus</p>
+          <p>Date: 02/05/2019 – 01/06/2021</p>
+          <p>
+            Remote work. Responsible for the backend and frontend of an
+            Android/IOS application written in IONIC (Angular).
+          </p>
+          <p>
+            Technologies: IONIC 3, IONIC 4, HTML, CSS, Bootstrap, Typescript,
+            Angular, JSON, Python, AWS
+          </p>
+        </div>
+
+        <div class="job">
+          <h3>IONIC Developer (Internship)</h3>
+          <p>Company: 4W4U (Cyprus), University of Cyprus</p>
+          <p>Date: 01/01/2019 – 02/05/2019</p>
+          <p>
+            Remote work. Responsible for the frontend (view) and backend of an
+            Android/IOS application written in IONIC (Angular).
+          </p>
+          <p>
+            Technologies: IONIC, HTML, CSS, Bootstrap, Typescript, Angular,
+            JSON, Python, AWS
+          </p>
+        </div>
+
+        <div class="job">
+          <h3>Junior Full Stack Java Developer</h3>
+          <p>Company: LAMBERCY Ltd Limassol (Cyprus)</p>
+          <p>Date: 01/12/2016 – 12/05/2017</p>
+          <p>
+            Part of a 2-man Full stack development team, responsible for
+            creating a ticketing system from scratch. Used HTML, JavaScript,
+            Ajax, jQuery for the website, and Servlets – Java for the backend.
+          </p>
+          <p>
+            Technologies: Servlets, JSP, JSTL, JDBC, Apache Tomcat, Eclipse IDE,
+            MySQL, jQuery, Ajax, HTML, CSS, Javascript
+          </p>
+        </div>
+
+        <div class="job">
+          <h3>System and Network Administrator</h3>
+          <p>Company: RELIANTCO INVESTMENTS LTD (UFX), Limassol (Cyprus)</p>
+          <p>Date: 02/04/2015 – 01/12/2016</p>
+          <p>Position: System and Network Administrator</p>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <div class="contact-info">
+            <div class="contact-item social-links">
+                <i class="fas fa-envelope icon"></i>
+               <span style="font-size:2rem; color:#333;">Email:</span> <a href="mailto:vangelischasiotis@gmail.com">vangelischasiotis@gmail.com</a>
+            </div>
+            <div class="contact-item social-links">
+                <i class="fas fa-phone icon"></i>
+                <span style="font-size:2rem; color:#333;">Mobile Phone:</span><span style="font-size:2rem">96633864</span>
+            </div>
+            <div class="contact-item social-links">
+                <i class="fab fa-linkedin icon"></i>
+                <span style="font-size:2rem; color:#333;">LinkedIn:</span> <a href="https://linkedin.com/in/vangelis-chasiotis-a9562ab7" target="_blank" rel="noopener noreferrer">
+                    Url Profile
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    
+      <footer>
+        <div class="social-links">
+        </div>
+        <p>&copy; <span id="current-year"></span> Vangelis Chasiotis</p>
+      </footer>
+    </div>
+  </div>
+
+</body>
+
+<script>
+
+function hideOnMobile() {
+    var element = document.getElementById("mobileHide");
+
+    if (window.innerWidth <= 600) {
+      // Hide the element on screens smaller than 600px (you can adjust the value)
+      element.style.display = "none";
+    } else {
+      // Show the element on larger screens
+      element.style.display = "block";
+    }
+  }
+
+  // Initial check on page load
+  hideOnMobile();
+
+  // Check on window resize
+  window.addEventListener("resize", hideOnMobile);
+
+  
+  function scrollToSection(sectionId) {
+        const element = document.getElementById(sectionId);
+        if (element) {
+          element.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start',
+          });
+        }
+      }
+    
+      document.getElementById('current-year').innerText = new Date().getFullYear();
+</script>
+
+</body>
+
+</html>
