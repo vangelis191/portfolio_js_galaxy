@@ -96,7 +96,7 @@ function createEarth() {
 
   // Add a moon to the Earth
   const moonGeometry = new t.SphereGeometry(3, 64, 64);
-  const moonMaterial = new t.MeshBasicMaterial({ map: loader.load('assets/moon.jpg') });
+  const moonMaterial = new t.MeshBasicMaterial({ map: loader.load('assets/moon2.jpg') });
   const moon = new t.Mesh(moonGeometry, moonMaterial);
   moon.name = 'moon';
   moon.position.x = -20; // Adjust the position relative to the Earth
@@ -140,7 +140,7 @@ function createStars() {
       }
 }
 function createPathStrings(filename) {
-  const basePath = "assets/skybox/";
+  const basePath = "assets/skybox2/";
   const baseFilename = basePath + filename;
   const fileType = ".png";
   const sides = ["ft", "bk", "up", "dn", "rt", "lf"];
