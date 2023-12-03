@@ -140,7 +140,7 @@ function createStars() {
       }
 }
 function createPathStrings(filename) {
-  const basePath = "assets/skybox2/";
+  const basePath = "assets/skybox3/";
   const baseFilename = basePath + filename;
   const fileType = ".png";
   const sides = ["ft", "bk", "up", "dn", "rt", "lf"];
